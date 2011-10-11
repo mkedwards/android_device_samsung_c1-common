@@ -24,4 +24,6 @@ LOCAL_SRC_FILES:=\
 
 LOCAL_MODULE:= libjpega
 
+LOCAL_MODULE_TAGS := eng
+
 include $(BUILD_SHARED_LIBRARY)
