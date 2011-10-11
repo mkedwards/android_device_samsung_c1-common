@@ -256,7 +256,7 @@ static const struct TagEntry {
 	    "the like. Two-bytes character codes cannot be used. "
 	    "When a 2-bytes code is necessary, the Exif Private tag "
 	    "<UserComment> is to be used."),
-	 { ESL_OOOO, ESL_OOOO, ESL_NNNN, ESL_NNNN, ESL_NNNN } },
+	 { ESL_NNNN, ESL_NNNN, ESL_NNNN, ESL_NNNN, ESL_NNNN } },
 	{EXIF_TAG_MAKE, "Make", N_("Manufacturer"),
 	 N_("The manufacturer of the recording "
 	    "equipment. This is the manufacturer of the DSC, scanner, "
@@ -343,7 +343,7 @@ static const struct TagEntry {
 	    "recommended that the information be written as in the example "
 	    "below for ease of Interoperability. When the field is "
 	    "left blank, it is treated as unknown."),
-	 { ESL_OOOO, ESL_OOOO, ESL_NNNN, ESL_NNNN, ESL_NNNN } },
+	 { ESL_NNNN, ESL_NNNN, ESL_NNNN, ESL_NNNN, ESL_NNNN } },
 	{EXIF_TAG_WHITE_POINT, "WhitePoint", N_("White Point"),
 	 N_("The chromaticity of the white point of the image. Normally "
 	    "this tag is not necessary, since color space is specified "
@@ -462,7 +462,7 @@ static const struct TagEntry {
 	    "by a terminating NULL code, then the editor copyright is given "
 	    "(see example 3). When the field is left blank, it is treated "
 	    "as unknown."),
-	 { ESL_OOOO, ESL_OOOO, ESL_NNNN, ESL_NNNN, ESL_NNNN } },
+	 { ESL_NNNN, ESL_NNNN, ESL_NNNN, ESL_NNNN, ESL_NNNN } },
 	{EXIF_TAG_EXPOSURE_TIME, "ExposureTime", N_("Exposure Time"),
 	 N_("Exposure time, given in seconds (sec)."),
 	 { ESL_NNNN, ESL_NNNN, ESL_OOOO, ESL_NNNN, ESL_NNNN } },
@@ -553,7 +553,7 @@ static const struct TagEntry {
 	{EXIF_TAG_BRIGHTNESS_VALUE, "BrightnessValue", N_("Brightness"),
 	 N_("The value of brightness. The unit is the APEX value. "
 	    "Ordinarily it is given in the range of -99.99 to 99.99."),
-	 { ESL_NNNN, ESL_NNNN, ESL_OOOO, ESL_NNNN, ESL_NNNN } },
+	 { ESL_NNNN, ESL_NNNN, ESL_NNNN, ESL_NNNN, ESL_NNNN } },
 	{EXIF_TAG_EXPOSURE_BIAS_VALUE, "ExposureBiasValue",
 	 N_("Exposure Bias"),
 	 N_("The exposure bias. The units is the APEX value. Ordinarily "
@@ -567,13 +567,13 @@ static const struct TagEntry {
 	{EXIF_TAG_SUBJECT_DISTANCE, "SubjectDistance",
 	 N_("Subject Distance"),
 	 N_("The distance to the subject, given in meters."),
-	 { ESL_NNNN, ESL_NNNN, ESL_OOOO, ESL_NNNN, ESL_NNNN } },
+	 { ESL_NNNN, ESL_NNNN, ESL_NNNN, ESL_NNNN, ESL_NNNN } },
 	{EXIF_TAG_METERING_MODE, "MeteringMode", N_("Metering Mode"),
 	 N_("The metering mode."),
 	 { ESL_NNNN, ESL_NNNN, ESL_OOOO, ESL_NNNN, ESL_NNNN } },
 	{EXIF_TAG_LIGHT_SOURCE, "LightSource", N_("Light Source"),
 	 N_("The kind of light source."),
-	 { ESL_NNNN, ESL_NNNN, ESL_OOOO, ESL_NNNN, ESL_NNNN } },
+	 { ESL_NNNN, ESL_NNNN, ESL_NNNN, ESL_NNNN, ESL_NNNN } },
 	{EXIF_TAG_FLASH, "Flash", N_("Flash"),
 	 N_("This tag is recorded when an image is taken using a strobe "
 	    "light (flash)."),
@@ -774,7 +774,7 @@ static const struct TagEntry {
 	 N_("Indicates the image source. If a DSC recorded the image, "
 	    "the tag value of this tag always be set to 3, indicating "
 	    "that the image was recorded on a DSC."),
-	 { ESL_NNNN, ESL_NNNN, ESL_OOOO, ESL_NNNN, ESL_NNNN } },
+	 { ESL_NNNN, ESL_NNNN, ESL_NNNN, ESL_NNNN, ESL_NNNN } },
 	{EXIF_TAG_SCENE_TYPE, "SceneType", N_("Scene Type"),
 	 N_("Indicates the type of scene. If a DSC recorded the image, "
 	    "this tag value must always be set to 1, indicating that the "
@@ -791,7 +791,7 @@ static const struct TagEntry {
 	    "data, such as rendering geared to output. When special "
 	    "processing is performed, the reader is expected to disable "
 	    "or minimize any further processing."),
-	 { ESL_NNNN, ESL_NNNN, ESL_OOOO, ESL_NNNN, ESL_NNNN } },
+	 { ESL_NNNN, ESL_NNNN, ESL_NNNN, ESL_NNNN, ESL_NNNN } },
 	{EXIF_TAG_EXPOSURE_MODE, "ExposureMode", N_("Exposure Mode"),
 	 N_("This tag indicates the exposure mode set when the image was "
 	    "shot. In auto-bracketing mode, the camera shoots a series of "
@@ -806,7 +806,7 @@ static const struct TagEntry {
 	 N_("This tag indicates the digital zoom ratio when the image was "
 	    "shot. If the numerator of the recorded value is 0, this "
 	    "indicates that digital zoom was not used."),
-	 { ESL_NNNN, ESL_NNNN, ESL_OOOO, ESL_NNNN, ESL_NNNN } },
+	 { ESL_NNNN, ESL_NNNN, ESL_NNNN, ESL_NNNN, ESL_NNNN } },
 	{EXIF_TAG_FOCAL_LENGTH_IN_35MM_FILM, "FocalLengthIn35mmFilm",
 	 N_("Focal Length in 35mm Film"),
 	 N_("This tag indicates the equivalent focal length assuming a "

@@ -22,8 +22,6 @@ LOCAL_SRC_FILES:=\
 #LOCAL_CFLAGS:=-O2 -g
 #LOCAL_CFLAGS+=-DHAVE_CONFIG_H -D_U_="__attribute__((unused))" -Dlinux -D__GLIBC__ -D_GNU_SOURCE
 
-LOCAL_MODULE_TAGS := optional
-
 LOCAL_MODULE:= libjpega
 
 include $(BUILD_SHARED_LIBRARY)
